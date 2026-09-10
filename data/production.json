@@ -1,0 +1,3091 @@
+{
+  "meta": {
+    "generated_from": "data/corpus.json",
+    "seed": 42,
+    "corpus_photo_count": 979,
+    "case_count": 200,
+    "cases_by_category": {
+      "answerable": 70,
+      "absent_subject": 45,
+      "out_of_domain": 30,
+      "false_premise": 30,
+      "comparative": 25
+    },
+    "unanswerable_count": 105,
+    "note": "Traffic the golden set cannot contain. Absence of every `absent_subject` term and every `false_premise` label is verified against the corpus at build time; this script exits non-zero if a subject has since been added."
+  },
+  "cases": [
+    {
+      "id": "prod-0001",
+      "question": "Tell me about photo 54973954619.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "54973954619"
+        ],
+        "answer": "NASA\u2019s Webb Identifies Earliest Supernova to Date, Distant Host Galaxy"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0002",
+      "question": "What does photo 52210790747 show?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52210790747"
+        ],
+        "answer": "Going Gold: NASA\u2019s James Webb Space Telescope Celebrates First Images"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0003",
+      "question": "What's in image 51886005794?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "51886005794"
+        ],
+        "answer": "James Webb Space Telescope Second Primary Mirror Deployment"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0004",
+      "question": "Tell me about photo 52797920454.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52797920454"
+        ],
+        "answer": "NASA\u2019s Webb Scores Another Ringed World With New Image of Uranus (Labeled)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "solar system",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0005",
+      "question": "What's in image 52620820972?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52620820972"
+        ],
+        "answer": "Artist Illustration - LHS 475 b"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "exoplanet",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0006",
+      "question": "What does photo 52517481613 show?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52517481613"
+        ],
+        "answer": "Artist Illustration - WASP-39 b"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "exoplanet",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0007",
+      "question": "Tell me about photo 52259483705.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52259483705"
+        ],
+        "answer": "Cartwheel Galaxy (NIRCam only)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0008",
+      "question": "What does photo 52204515679 show?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52204515679"
+        ],
+        "answer": "#JWSTArt and #UnfoldTheUniverse Art - NASA/JPL-Caltech"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "star",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0009",
+      "question": "What's in image 54164228360?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "54164228360"
+        ],
+        "answer": "Sombrero Galaxy (Hubble and Webb Image)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0010",
+      "question": "Tell me about photo 52115975835.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52115975835"
+        ],
+        "answer": "A Visit to the Space Telescope Science Institute"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0011",
+      "question": "What's in image 54580684639?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "54580684639"
+        ],
+        "answer": "Frigid Exoplanet in Strange Orbit Imaged by NASA's Webb"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "exoplanet",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0012",
+      "question": "What's in image 53496181260?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53496181260"
+        ],
+        "answer": "NGC 1566 (Webb)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0013",
+      "question": "Tell me about photo 51886333730.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "51886333730"
+        ],
+        "answer": "James Webb Space Telescope Second Primary Mirror Deployment"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0014",
+      "question": "What's in image 51886277650?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "51886277650"
+        ],
+        "answer": "Photons Received: Webb Sees Its First Star \u2013 18 Times"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0015",
+      "question": "What does photo 52184594070 show?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52184594070"
+        ],
+        "answer": "Webb\u2019s Mid-Infrared Spectroscopy Will Reveal Molecules, Elements"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0016",
+      "question": "What's in image 52505830106?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52505830106"
+        ],
+        "answer": "NASA's Webb Draws Back Curtain on Universe's Early Galaxies (Stacked graphic, used on Facebook)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0017",
+      "question": "What does photo 52551407093 show?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52551407093"
+        ],
+        "answer": "NASA\u2019s Webb Indicates Several Stars \u2018Stirred Up\u2019 Southern Ring Nebula (Scientific Illustration)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "nebula",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0018",
+      "question": "What does photo 53851864526 show?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53851864526"
+        ],
+        "answer": "Interacting Galaxies Arp 142 (MIRI only)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0019",
+      "question": "What's in image 54639970389?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "54639970389"
+        ],
+        "answer": "NASA\u2019s Hubble and Webb Telescopes Reveal Two Faces of a Star Cluster Duo"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "star",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0020",
+      "question": "What does photo 51886010554 show?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "51886010554"
+        ],
+        "answer": "James Webb Space Telescope Second Primary Mirror Deployment"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0021",
+      "question": "Tell me about photo 54335344982.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "54335344982"
+        ],
+        "answer": "Webb Reveals Rapid-Fire Light Show From Milky Way\u2019s Central Black Hole"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0022",
+      "question": "What does photo 52469905667 show?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52469905667"
+        ],
+        "answer": "James Webb Space Telescope Pumpkin Carving - by Robby Swoish"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0023",
+      "question": "What does photo 55065769103 show?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "55065769103"
+        ],
+        "answer": "NASA Telescopes Spot Surprisingly Mature Cluster in Early Universe"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0024",
+      "question": "What does photo 53495942608 show?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53495942608"
+        ],
+        "answer": "NGC 1672"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0025",
+      "question": "Tell me about photo 52506381778.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52506381778"
+        ],
+        "answer": "NASA's Webb Draws Back Curtain on Universe's Early Galaxies (Single panel with inset 1)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0026",
+      "question": "Tell me about photo 53519307383.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53519307383"
+        ],
+        "answer": "NGC 3351 (Webb Image)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0027",
+      "question": "Tell me about photo 54565613170.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "54565613170"
+        ],
+        "answer": "NASA's Webb Rounds Out Picture of Sombrero Galaxy\u2019s Disk"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0028",
+      "question": "What's in image 52861256017?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52861256017"
+        ],
+        "answer": "ARTIST ILLUSTRATION: Webb Finds Water Vapor, But From a Rocky Planet or Its Star?"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "exoplanet",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0029",
+      "question": "Tell me about photo 51884707637.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "51884707637"
+        ],
+        "answer": "James Webb Space Telescope Second Primary Mirror Deployment"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "star",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0030",
+      "question": "What does photo 52310633594 show?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52310633594"
+        ],
+        "answer": "STScI-01GB31EW92W5933HYW7QSMWBQD"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0031",
+      "question": "Tell me about photo 53151185919.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53151185919"
+        ],
+        "answer": "M51 (NIRCam image)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0032",
+      "question": "Tell me about photo 52302207952.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52302207952"
+        ],
+        "answer": "Webb\u2019s Jupiter Images Showcase Auroras, Hazes"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0033",
+      "question": "What does photo 52504158265 show?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52504158265"
+        ],
+        "answer": "NASA\u2019s Webb Catches Fiery Hourglass as New Star Forms"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "star",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0034",
+      "question": "What's in image 53105008818?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53105008818"
+        ],
+        "answer": "Webb Reveals Colors of Earendel, Most Distant Star Ever Detected"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0035",
+      "question": "Tell me about photo 52184086358.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52184086358"
+        ],
+        "answer": "Webb\u2019s NIRISS Ready to See Cosmos in Over 2,000 Infrared Colors"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0036",
+      "question": "What's in image 53314473249?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53314473249"
+        ],
+        "answer": "Pandora Cluster (NIRCam Image)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0037",
+      "question": "What's in image 52201718324?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52201718324"
+        ],
+        "answer": "Webb's Diffraction Spikes (summary)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0038",
+      "question": "What's in image 53230009083?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53230009083"
+        ],
+        "answer": "Long-wavelength NIRCam Orion mosaic in ESASky"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "nebula",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0039",
+      "question": "What does photo 53179463277 show?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53179463277"
+        ],
+        "answer": "Webb Discovers Methane, Carbon Dioxide in Atmosphere of Exoplanet K2-18 b (Artist Illustration)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "exoplanet",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0040",
+      "question": "What's in image 54654473579?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "54654473579"
+        ],
+        "answer": "Three Years of Wonder - the James Webb Space Telescope Infographic"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "lookup"
+      }
+    },
+    {
+      "id": "prod-0041",
+      "question": "How many exoplanet photos are in the corpus?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [],
+        "answer": "92"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "exoplanet",
+        "shape": "count"
+      }
+    },
+    {
+      "id": "prod-0042",
+      "question": "What's the count of photos labelled exoplanet?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [],
+        "answer": "92"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "exoplanet",
+        "shape": "count"
+      }
+    },
+    {
+      "id": "prod-0043",
+      "question": "How many galaxy photos are in the corpus?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [],
+        "answer": "143"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "count"
+      }
+    },
+    {
+      "id": "prod-0044",
+      "question": "What's the count of photos labelled galaxy?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [],
+        "answer": "143"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "count"
+      }
+    },
+    {
+      "id": "prod-0045",
+      "question": "How many galaxy cluster photos are in the corpus?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [],
+        "answer": "23"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy cluster",
+        "shape": "count"
+      }
+    },
+    {
+      "id": "prod-0046",
+      "question": "What's the count of photos labelled galaxy cluster?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [],
+        "answer": "23"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy cluster",
+        "shape": "count"
+      }
+    },
+    {
+      "id": "prod-0047",
+      "question": "How many nebula photos are in the corpus?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [],
+        "answer": "42"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "nebula",
+        "shape": "count"
+      }
+    },
+    {
+      "id": "prod-0048",
+      "question": "What's the count of photos labelled nebula?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [],
+        "answer": "42"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "nebula",
+        "shape": "count"
+      }
+    },
+    {
+      "id": "prod-0049",
+      "question": "How many observatory / engineering photos are in the corpus?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [],
+        "answer": "265"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "count"
+      }
+    },
+    {
+      "id": "prod-0050",
+      "question": "What's the count of photos labelled observatory / engineering?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [],
+        "answer": "265"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "count"
+      }
+    },
+    {
+      "id": "prod-0051",
+      "question": "How many solar system photos are in the corpus?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [],
+        "answer": "34"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "solar system",
+        "shape": "count"
+      }
+    },
+    {
+      "id": "prod-0052",
+      "question": "What's the count of photos labelled solar system?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [],
+        "answer": "34"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "solar system",
+        "shape": "count"
+      }
+    },
+    {
+      "id": "prod-0053",
+      "question": "How many star photos are in the corpus?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [],
+        "answer": "88"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "star",
+        "shape": "count"
+      }
+    },
+    {
+      "id": "prod-0054",
+      "question": "What's the count of photos labelled star?",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [],
+        "answer": "88"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "star",
+        "shape": "count"
+      }
+    },
+    {
+      "id": "prod-0055",
+      "question": "Which photo is titled something like 'NASA\u2019s Webb Uncovers Dense Cosmic Knot'? Give me its ID.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52441954785"
+        ],
+        "answer": "NASA\u2019s Webb Uncovers Dense Cosmic Knot in The Early Universe"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "search_and_verify"
+      }
+    },
+    {
+      "id": "prod-0056",
+      "question": "Which photo is titled something like 'Alpha Centauri 3 Panel (Webb MIRI'? Give me its ID.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "54708016260"
+        ],
+        "answer": "Alpha Centauri 3 Panel (Webb MIRI Image Detail)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "exoplanet",
+        "shape": "search_and_verify"
+      }
+    },
+    {
+      "id": "prod-0057",
+      "question": "Which photo is titled something like 'Webb Reveals Never-Before-Seen Details in Cassiopeia'? Give me its ID.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52799298357"
+        ],
+        "answer": "Webb Reveals Never-Before-Seen Details in Cassiopeia A"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "nebula",
+        "shape": "search_and_verify"
+      }
+    },
+    {
+      "id": "prod-0058",
+      "question": "Which photo is titled something like 'Webb Provides Another Look Into Galactic'? Give me its ID.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "54004594840"
+        ],
+        "answer": "Webb Provides Another Look Into Galactic Collisions (NIRCam and MIRI)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "search_and_verify"
+      }
+    },
+    {
+      "id": "prod-0059",
+      "question": "Which photo is titled something like 'NGC 4321 (Hubble + Webb)'? Give me its ID.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53515482113"
+        ],
+        "answer": "NGC 4321 (Hubble + Webb)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "search_and_verify"
+      }
+    },
+    {
+      "id": "prod-0060",
+      "question": "Which photo is titled something like 'Webb witnesses a feasting supermassive black'? Give me its ID.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "54936300586"
+        ],
+        "answer": "Webb witnesses a feasting supermassive black hole in the early Universe"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "search_and_verify"
+      }
+    },
+    {
+      "id": "prod-0061",
+      "question": "Which photo is titled something like 'NASA\u2019s Webb Confirms Its First Exoplanett'? Give me its ID.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52621813063"
+        ],
+        "answer": "NASA\u2019s Webb Confirms Its First Exoplanett - transit light curve"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "exoplanet",
+        "shape": "search_and_verify"
+      }
+    },
+    {
+      "id": "prod-0062",
+      "question": "Which photo is titled something like 'NASA\u2019s Webb Discovers New Feature in'? Give me its ID.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53268945742"
+        ],
+        "answer": "NASA\u2019s Webb Discovers New Feature in Jupiter\u2019s Atmosphere"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "solar system",
+        "shape": "search_and_verify"
+      }
+    },
+    {
+      "id": "prod-0063",
+      "question": "Which photo is titled something like 'December 25, 2021, Webb On Its'? Give me its ID.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53218425902"
+        ],
+        "answer": "December 25, 2021, Webb On Its Way to L2 - by Bhumesh Bharti"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "search_and_verify"
+      }
+    },
+    {
+      "id": "prod-0064",
+      "question": "Which photo is titled something like 'NASA Webb Finds Young Sun-Like Star'? Give me its ID.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "55053816223"
+        ],
+        "answer": "NASA Webb Finds Young Sun-Like Star Forging, Spewing Common Crystals"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "nebula",
+        "shape": "search_and_verify"
+      }
+    },
+    {
+      "id": "prod-0065",
+      "question": "Which photo is titled something like 'A Wreath of Star Formation in'? Give me its ID.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52577236876"
+        ],
+        "answer": "A Wreath of Star Formation in NGC 7469"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "search_and_verify"
+      }
+    },
+    {
+      "id": "prod-0066",
+      "question": "Which photo is titled something like 'NASA's Webb Sees Galaxy Mysteriously Clearing'? Give me its ID.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "54415769476"
+        ],
+        "answer": "NASA's Webb Sees Galaxy Mysteriously Clearing Fog of Early Universe"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "search_and_verify"
+      }
+    },
+    {
+      "id": "prod-0067",
+      "question": "Which photo is titled something like 'A Galactic Treasury: NGC 1559'? Give me its ID.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53554927627"
+        ],
+        "answer": "A Galactic Treasury: NGC 1559"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "search_and_verify"
+      }
+    },
+    {
+      "id": "prod-0068",
+      "question": "Which photo is titled something like 'NASA's Webb Peers into the Extreme'? Give me its ID.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53989782746"
+        ],
+        "answer": "NASA's Webb Peers into the Extreme Outer Galaxy (NIRCam and MIRI)"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "search_and_verify"
+      }
+    },
+    {
+      "id": "prod-0069",
+      "question": "Which photo is titled something like 'NASA\u2019s Webb Detects Carbon Dioxide in'? Give me its ID.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52310689110"
+        ],
+        "answer": "NASA\u2019s Webb Detects Carbon Dioxide in Exoplanet Atmosphere"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "observatory / engineering",
+        "shape": "search_and_verify"
+      }
+    },
+    {
+      "id": "prod-0070",
+      "question": "Which photo is titled something like 'NASA\u2019s Webb Proves Galaxies Transformed the'? Give me its ID.",
+      "category": "answerable",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52969542198"
+        ],
+        "answer": "NASA\u2019s Webb Proves Galaxies Transformed the Early Universe"
+      },
+      "metadata": {
+        "category": "answerable",
+        "label": "galaxy",
+        "shape": "search_and_verify"
+      }
+    },
+    {
+      "id": "prod-0071",
+      "question": "Which photo in the corpus shows Betelgeuse?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Betelgeuse."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Betelgeuse",
+        "verified_absent_term": "betelgeuse"
+      }
+    },
+    {
+      "id": "prod-0072",
+      "question": "What's the photo ID for the Vega image?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Vega."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Vega",
+        "verified_absent_term": "vega"
+      }
+    },
+    {
+      "id": "prod-0073",
+      "question": "Find me the Webb image of Sirius.",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Sirius."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Sirius",
+        "verified_absent_term": "sirius"
+      }
+    },
+    {
+      "id": "prod-0074",
+      "question": "I'm looking for the Aldebaran photo \u2014 what's its ID?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Aldebaran."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Aldebaran",
+        "verified_absent_term": "aldebaran"
+      }
+    },
+    {
+      "id": "prod-0075",
+      "question": "Can you pull up the Rigel image and tell me when it was taken?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Rigel."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Rigel",
+        "verified_absent_term": "rigel"
+      }
+    },
+    {
+      "id": "prod-0076",
+      "question": "Which photo in the corpus shows Polaris?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Polaris."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Polaris",
+        "verified_absent_term": "polaris"
+      }
+    },
+    {
+      "id": "prod-0077",
+      "question": "What's the photo ID for the Antares image?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Antares."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Antares",
+        "verified_absent_term": "antares"
+      }
+    },
+    {
+      "id": "prod-0078",
+      "question": "Find me the Webb image of Altair.",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Altair."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Altair",
+        "verified_absent_term": "altair"
+      }
+    },
+    {
+      "id": "prod-0079",
+      "question": "I'm looking for the Deneb photo \u2014 what's its ID?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Deneb."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Deneb",
+        "verified_absent_term": "deneb"
+      }
+    },
+    {
+      "id": "prod-0080",
+      "question": "Can you pull up the the Boomerang Nebula image and tell me when it was taken?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of the Boomerang Nebula."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "the Boomerang Nebula",
+        "verified_absent_term": "boomerang nebula"
+      }
+    },
+    {
+      "id": "prod-0081",
+      "question": "Which photo in the corpus shows the Veil Nebula?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of the Veil Nebula."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "the Veil Nebula",
+        "verified_absent_term": "veil nebula"
+      }
+    },
+    {
+      "id": "prod-0082",
+      "question": "What's the photo ID for the the Dumbbell Nebula image?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of the Dumbbell Nebula."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "the Dumbbell Nebula",
+        "verified_absent_term": "dumbbell"
+      }
+    },
+    {
+      "id": "prod-0083",
+      "question": "Find me the Webb image of the Owl Nebula.",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of the Owl Nebula."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "the Owl Nebula",
+        "verified_absent_term": "owl nebula"
+      }
+    },
+    {
+      "id": "prod-0084",
+      "question": "I'm looking for the the Rosette Nebula photo \u2014 what's its ID?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of the Rosette Nebula."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "the Rosette Nebula",
+        "verified_absent_term": "rosette"
+      }
+    },
+    {
+      "id": "prod-0085",
+      "question": "Can you pull up the the Triangulum Galaxy image and tell me when it was taken?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of the Triangulum Galaxy."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "the Triangulum Galaxy",
+        "verified_absent_term": "triangulum"
+      }
+    },
+    {
+      "id": "prod-0086",
+      "question": "Which photo in the corpus shows Messier 87?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Messier 87."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Messier 87",
+        "verified_absent_term": "messier 87"
+      }
+    },
+    {
+      "id": "prod-0087",
+      "question": "What's the photo ID for the Hoag's Object image?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Hoag's Object."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Hoag's Object",
+        "verified_absent_term": "hoag"
+      }
+    },
+    {
+      "id": "prod-0088",
+      "question": "Find me the Webb image of the Mice Galaxies.",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of the Mice Galaxies."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "the Mice Galaxies",
+        "verified_absent_term": "mice galaxies"
+      }
+    },
+    {
+      "id": "prod-0089",
+      "question": "I'm looking for the the Tadpole Galaxy photo \u2014 what's its ID?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of the Tadpole Galaxy."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "the Tadpole Galaxy",
+        "verified_absent_term": "tadpole galaxy"
+      }
+    },
+    {
+      "id": "prod-0090",
+      "question": "Can you pull up the Halley's Comet image and tell me when it was taken?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Halley's Comet."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Halley's Comet",
+        "verified_absent_term": "halley"
+      }
+    },
+    {
+      "id": "prod-0091",
+      "question": "Which photo in the corpus shows Comet Hale-Bopp?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Comet Hale-Bopp."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Comet Hale-Bopp",
+        "verified_absent_term": "hale-bopp"
+      }
+    },
+    {
+      "id": "prod-0092",
+      "question": "What's the photo ID for the Shoemaker-Levy 9 image?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Shoemaker-Levy 9."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Shoemaker-Levy 9",
+        "verified_absent_term": "shoemaker-levy"
+      }
+    },
+    {
+      "id": "prod-0093",
+      "question": "Find me the Webb image of 'Oumuamua.",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of 'Oumuamua."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "'Oumuamua",
+        "verified_absent_term": "oumuamua"
+      }
+    },
+    {
+      "id": "prod-0094",
+      "question": "I'm looking for the Comet Borisov photo \u2014 what's its ID?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Comet Borisov."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Comet Borisov",
+        "verified_absent_term": "borisov"
+      }
+    },
+    {
+      "id": "prod-0095",
+      "question": "Can you pull up the Kepler-452b image and tell me when it was taken?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Kepler-452b."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Kepler-452b",
+        "verified_absent_term": "kepler-452"
+      }
+    },
+    {
+      "id": "prod-0096",
+      "question": "Which photo in the corpus shows Gliese 581g?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Gliese 581g."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Gliese 581g",
+        "verified_absent_term": "gliese 581"
+      }
+    },
+    {
+      "id": "prod-0097",
+      "question": "What's the photo ID for the Teegarden's Star image?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Teegarden's Star."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Teegarden's Star",
+        "verified_absent_term": "teegarden"
+      }
+    },
+    {
+      "id": "prod-0098",
+      "question": "Find me the Webb image of Wolf 359.",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Wolf 359."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Wolf 359",
+        "verified_absent_term": "wolf 359"
+      }
+    },
+    {
+      "id": "prod-0099",
+      "question": "I'm looking for the the Pioneer plaque photo \u2014 what's its ID?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of the Pioneer plaque."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "the Pioneer plaque",
+        "verified_absent_term": "pioneer"
+      }
+    },
+    {
+      "id": "prod-0100",
+      "question": "Can you pull up the the Perseverance rover image and tell me when it was taken?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of the Perseverance rover."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "the Perseverance rover",
+        "verified_absent_term": "perseverance"
+      }
+    },
+    {
+      "id": "prod-0101",
+      "question": "Which photo in the corpus shows the Curiosity rover?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of the Curiosity rover."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "the Curiosity rover",
+        "verified_absent_term": "curiosity rover"
+      }
+    },
+    {
+      "id": "prod-0102",
+      "question": "What's the photo ID for the quasar 3C 273 image?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of quasar 3C 273."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "quasar 3C 273",
+        "verified_absent_term": "3c 273"
+      }
+    },
+    {
+      "id": "prod-0103",
+      "question": "Find me the Webb image of the dwarf planet Makemake.",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of the dwarf planet Makemake."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "the dwarf planet Makemake",
+        "verified_absent_term": "makemake"
+      }
+    },
+    {
+      "id": "prod-0104",
+      "question": "I'm looking for the the dwarf planet Haumea photo \u2014 what's its ID?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of the dwarf planet Haumea."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "the dwarf planet Haumea",
+        "verified_absent_term": "haumea"
+      }
+    },
+    {
+      "id": "prod-0105",
+      "question": "Can you pull up the the asteroid Vesta image and tell me when it was taken?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of the asteroid Vesta."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "the asteroid Vesta",
+        "verified_absent_term": "vesta"
+      }
+    },
+    {
+      "id": "prod-0106",
+      "question": "Which photo in the corpus shows Jupiter's moon Callisto?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Jupiter's moon Callisto."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Jupiter's moon Callisto",
+        "verified_absent_term": "callisto"
+      }
+    },
+    {
+      "id": "prod-0107",
+      "question": "What's the photo ID for the Pluto's moon Charon image?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Pluto's moon Charon."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Pluto's moon Charon",
+        "verified_absent_term": "charon"
+      }
+    },
+    {
+      "id": "prod-0108",
+      "question": "Find me the Webb image of the Lagoon Nebula.",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of the Lagoon Nebula."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "the Lagoon Nebula",
+        "verified_absent_term": "lagoon nebula"
+      }
+    },
+    {
+      "id": "prod-0109",
+      "question": "I'm looking for the the Trifid Nebula photo \u2014 what's its ID?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of the Trifid Nebula."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "the Trifid Nebula",
+        "verified_absent_term": "trifid"
+      }
+    },
+    {
+      "id": "prod-0110",
+      "question": "Can you pull up the Messier 81 image and tell me when it was taken?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Messier 81."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Messier 81",
+        "verified_absent_term": "messier 81"
+      }
+    },
+    {
+      "id": "prod-0111",
+      "question": "Which photo in the corpus shows Centaurus A?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Centaurus A."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Centaurus A",
+        "verified_absent_term": "centaurus a"
+      }
+    },
+    {
+      "id": "prod-0112",
+      "question": "What's the photo ID for the Betelgeuse image?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Betelgeuse."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Betelgeuse",
+        "verified_absent_term": "betelgeuse"
+      }
+    },
+    {
+      "id": "prod-0113",
+      "question": "Find me the Webb image of Vega.",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Vega."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Vega",
+        "verified_absent_term": "vega"
+      }
+    },
+    {
+      "id": "prod-0114",
+      "question": "I'm looking for the Sirius photo \u2014 what's its ID?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Sirius."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Sirius",
+        "verified_absent_term": "sirius"
+      }
+    },
+    {
+      "id": "prod-0115",
+      "question": "Can you pull up the Aldebaran image and tell me when it was taken?",
+      "category": "absent_subject",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains no photo of Aldebaran."
+      },
+      "metadata": {
+        "category": "absent_subject",
+        "subject": "Aldebaran",
+        "verified_absent_term": "aldebaran"
+      }
+    },
+    {
+      "id": "prod-0116",
+      "question": "What is the diameter of Webb's primary mirror?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0117",
+      "question": "How many hexagonal segments does Webb's mirror have?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0118",
+      "question": "What is the operating temperature of the MIRI instrument?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0119",
+      "question": "Which rocket launched the James Webb Space Telescope?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0120",
+      "question": "How far from Earth is Webb's orbit at L2?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0121",
+      "question": "What is Webb's expected mission lifetime?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0122",
+      "question": "How much did the James Webb Space Telescope cost to build?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0123",
+      "question": "Who is the current lead scientist on the Webb mission?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0124",
+      "question": "What is the difference between NIRCam and NIRSpec?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0125",
+      "question": "How long does it take Webb to slew between targets?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0126",
+      "question": "What wavelength range does Webb observe in?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0127",
+      "question": "How many layers does Webb's sunshield have?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0128",
+      "question": "What propellant does Webb use for station-keeping?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0129",
+      "question": "When is Webb's next scheduled instrument calibration?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0130",
+      "question": "Which ground station downlinks Webb's data?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0131",
+      "question": "What is the data rate of Webb's downlink?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0132",
+      "question": "How many observing proposals were accepted in Cycle 3?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0133",
+      "question": "What is Webb's angular resolution at 2 microns?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0134",
+      "question": "Who manufactured Webb's beryllium mirror segments?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0135",
+      "question": "What is the field of view of the NIRCam instrument?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0136",
+      "question": "How does Webb compare to Hubble in light-gathering power?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0137",
+      "question": "What happens to Webb when its fuel runs out?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0138",
+      "question": "Which agencies partnered with NASA on Webb?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0139",
+      "question": "What is the L2 Lagrange point and why was it chosen?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0140",
+      "question": "How is Webb protected from micrometeoroid strikes?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0141",
+      "question": "What software processes Webb's raw detector output?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0142",
+      "question": "How many people work on the Webb operations team?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0143",
+      "question": "What is Webb's pointing stability specification?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0144",
+      "question": "When did Webb complete its mirror alignment?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0145",
+      "question": "What is the coldest temperature Webb's detectors reach?",
+      "category": "out_of_domain",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "This corpus holds photo records only; it cannot answer questions about the observatory itself."
+      },
+      "metadata": {
+        "category": "out_of_domain"
+      }
+    },
+    {
+      "id": "prod-0146",
+      "question": "The corpus has a 'black hole' category \u2014 how many photos are in it?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'black hole' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "black hole"
+      }
+    },
+    {
+      "id": "prod-0147",
+      "question": "Show me the highest-rated 'supernova' photo in the corpus.",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'supernova' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "supernova"
+      }
+    },
+    {
+      "id": "prod-0148",
+      "question": "List the photo IDs labelled 'asteroid'.",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'asteroid' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "asteroid"
+      }
+    },
+    {
+      "id": "prod-0149",
+      "question": "Which 'quasar' photo was added most recently?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'quasar' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "quasar"
+      }
+    },
+    {
+      "id": "prod-0150",
+      "question": "What's the ID of the first 'pulsar' image Webb published?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'pulsar' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "pulsar"
+      }
+    },
+    {
+      "id": "prod-0151",
+      "question": "The corpus has a 'comet' category \u2014 how many photos are in it?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'comet' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "comet"
+      }
+    },
+    {
+      "id": "prod-0152",
+      "question": "Show me the highest-rated 'black hole' photo in the corpus.",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'black hole' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "black hole"
+      }
+    },
+    {
+      "id": "prod-0153",
+      "question": "List the photo IDs labelled 'supernova'.",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'supernova' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "supernova"
+      }
+    },
+    {
+      "id": "prod-0154",
+      "question": "Which 'asteroid' photo was added most recently?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'asteroid' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "asteroid"
+      }
+    },
+    {
+      "id": "prod-0155",
+      "question": "What's the ID of the first 'quasar' image Webb published?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'quasar' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "quasar"
+      }
+    },
+    {
+      "id": "prod-0156",
+      "question": "The corpus has a 'pulsar' category \u2014 how many photos are in it?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'pulsar' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "pulsar"
+      }
+    },
+    {
+      "id": "prod-0157",
+      "question": "Show me the highest-rated 'comet' photo in the corpus.",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'comet' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "comet"
+      }
+    },
+    {
+      "id": "prod-0158",
+      "question": "List the photo IDs labelled 'black hole'.",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'black hole' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "black hole"
+      }
+    },
+    {
+      "id": "prod-0159",
+      "question": "Which 'supernova' photo was added most recently?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'supernova' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "supernova"
+      }
+    },
+    {
+      "id": "prod-0160",
+      "question": "What's the ID of the first 'asteroid' image Webb published?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'asteroid' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "asteroid"
+      }
+    },
+    {
+      "id": "prod-0161",
+      "question": "The corpus has a 'quasar' category \u2014 how many photos are in it?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'quasar' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "quasar"
+      }
+    },
+    {
+      "id": "prod-0162",
+      "question": "Show me the highest-rated 'pulsar' photo in the corpus.",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'pulsar' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "pulsar"
+      }
+    },
+    {
+      "id": "prod-0163",
+      "question": "List the photo IDs labelled 'comet'.",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'comet' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "comet"
+      }
+    },
+    {
+      "id": "prod-0164",
+      "question": "Which 'black hole' photo was added most recently?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'black hole' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "black hole"
+      }
+    },
+    {
+      "id": "prod-0165",
+      "question": "What's the ID of the first 'supernova' image Webb published?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'supernova' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "supernova"
+      }
+    },
+    {
+      "id": "prod-0166",
+      "question": "The corpus has a 'asteroid' category \u2014 how many photos are in it?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "There is no 'asteroid' label in this corpus."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "false_label": "asteroid"
+      }
+    },
+    {
+      "id": "prod-0167",
+      "question": "Of the 5,000 photos in this corpus, how many are nebulae?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains 979 photos, not 5,000."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "claimed_count": 5000
+      }
+    },
+    {
+      "id": "prod-0168",
+      "question": "This corpus has 12,000 images \u2014 what fraction are galaxies?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains 979 photos, not 12,000."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "claimed_count": 12000
+      }
+    },
+    {
+      "id": "prod-0169",
+      "question": "You have 250 photos indexed. How many show exoplanets?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains 979 photos, not 250."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "claimed_count": 250
+      }
+    },
+    {
+      "id": "prod-0170",
+      "question": "Of the 40,000 photos in this corpus, how many are nebulae?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains 979 photos, not 40,000."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "claimed_count": 40000
+      }
+    },
+    {
+      "id": "prod-0171",
+      "question": "This corpus has 5,000 images \u2014 what fraction are galaxies?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains 979 photos, not 5,000."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "claimed_count": 5000
+      }
+    },
+    {
+      "id": "prod-0172",
+      "question": "You have 12,000 photos indexed. How many show exoplanets?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains 979 photos, not 12,000."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "claimed_count": 12000
+      }
+    },
+    {
+      "id": "prod-0173",
+      "question": "Of the 250 photos in this corpus, how many are nebulae?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains 979 photos, not 250."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "claimed_count": 250
+      }
+    },
+    {
+      "id": "prod-0174",
+      "question": "This corpus has 40,000 images \u2014 what fraction are galaxies?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains 979 photos, not 40,000."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "claimed_count": 40000
+      }
+    },
+    {
+      "id": "prod-0175",
+      "question": "You have 5,000 photos indexed. How many show exoplanets?",
+      "category": "false_premise",
+      "expected": {
+        "answerable": false,
+        "photo_ids": [],
+        "answer": "The corpus contains 979 photos, not 5,000."
+      },
+      "metadata": {
+        "category": "false_premise",
+        "claimed_count": 5000
+      }
+    },
+    {
+      "id": "prod-0176",
+      "question": "Compare photos 55027915370 and 55104944969 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "55027915370",
+          "55104944969"
+        ],
+        "answer": "Scientists Identify \u2018Astronomy\u2019s Platypus\u2019 With NASA\u2019s Webb Telescope (galaxy) vs Webb maps the mysterious upper atmosphere of Uranus (solar system)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0177",
+      "question": "Compare photos 53515358471 and 51887589316 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53515358471",
+          "51887589316"
+        ],
+        "answer": "NGC 1433 (Hubble + Webb) (observatory / engineering) vs Archival Image: Webb lifted onto flight launch adapter (observatory / engineering)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0178",
+      "question": "Compare photos 52258025987 and 51886328355 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52258025987",
+          "51886328355"
+        ],
+        "answer": "Cartwheel Galaxy (MIRI) (galaxy) vs James Webb Space Telescope Briefing (observatory / engineering)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0179",
+      "question": "Compare photos 53567451213 and 52621978298 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53567451213",
+          "52621978298"
+        ],
+        "answer": "Webb Unlocks Secrets of One of the Most Distant Galaxies Ever Seen (GOODS-North Field, NIRCam Image, unannotated) (galaxy) vs NASA\u2019s Webb Uncovers Star Formation in Cluster\u2019s Dusty Ribbons, NGC 346 (NIRCam) (observatory / engineering)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0180",
+      "question": "Compare photos 52405131881 and 52470254311 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52405131881",
+          "52470254311"
+        ],
+        "answer": "NASA's Chandra Adds X-ray Vision to Webb Images - SMACS 0723.3\u20137327 Composite (observatory / engineering) vs James Webb Space Telescope Pumpkin Carving - by Hillary Lipko (observatory / engineering)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0181",
+      "question": "Compare photos 51889624786 and 51885758158 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "51889624786",
+          "51885758158"
+        ],
+        "answer": "Webb Team Brings 18 Dots of Starlight Into Hexagonal Formation (observatory / engineering) vs James Webb Space Telescope Briefing (observatory / engineering)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0182",
+      "question": "Compare photos 52704568106 and 54748305075 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52704568106",
+          "54748305075"
+        ],
+        "answer": "Webb Observes a Globular Cluster Sparkling with Separate Stars (observatory / engineering) vs Butterfly Nebula NGC 6302 (Hubble and Webb + ALMA images, side by side) (exoplanet)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0183",
+      "question": "Compare photos 53314359793 and 52272970074 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53314359793",
+          "52272970074"
+        ],
+        "answer": "NASA Telescopes Discover Record-Breaking Black Hole (labeled) (galaxy cluster) vs President Biden Previews Image from Webb Space Telescope (observatory / engineering)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0184",
+      "question": "Compare photos 53075839805 and 52565832838 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53075839805",
+          "52565832838"
+        ],
+        "answer": "#JWSTArt and #UnfoldTheUniverse Art  - by Cassandra Li (star) vs NASA\u2019s Webb Unveils Young Stars in Early Stages of Formation (Detail) (nebula)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0185",
+      "question": "Compare photos 52477619403 and 52217231380 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52477619403",
+          "52217231380"
+        ],
+        "answer": "#JWSTArt - by Aryan Raj (star) vs Webb Images of Jupiter and More Now Available In Commissioning Data (solar system)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0186",
+      "question": "Compare photos 53545888600 and 53689998916 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53545888600",
+          "53689998916"
+        ],
+        "answer": "Coloring Page - by Shreyas from India (observatory / engineering) vs Hot Gas-Giant Exoplanet WASP-43 b (MIRI Phase Curve) (exoplanet)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0187",
+      "question": "Compare photos 53072881464 and 55168334683 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53072881464",
+          "55168334683"
+        ],
+        "answer": "Webb Snaps Highly Detailed Infrared Image of Actively Forming Stars (star) vs NASA Webb, Hubble Share Most Comprehensive View of Saturn to Date (NIRCam, Wide-view, Labeled) (solar system)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0188",
+      "question": "Compare photos 53131996331 and 52211582643 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53131996331",
+          "52211582643"
+        ],
+        "answer": "Webb Reveals Intricate Details in the Remains of a Dying Star (MIRI image) (exoplanet) vs NASA\u2019s Webb Captures Dying Star\u2019s Final \u2018Performance\u2019 in Fine Detail (nebula)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0189",
+      "question": "Compare photos 52861256017 and 54363063566 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52861256017",
+          "54363063566"
+        ],
+        "answer": "ARTIST ILLUSTRATION: Webb Finds Water Vapor, But From a Rocky Planet or Its Star? (exoplanet) vs NASA's Webb Exposes Complex Atmosphere of Starless Super-Jupiter (exoplanet)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0190",
+      "question": "Compare photos 53496155160 and 52505830106 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53496155160",
+          "52505830106"
+        ],
+        "answer": "NGC 1300 (galaxy) vs NASA's Webb Draws Back Curtain on Universe's Early Galaxies (Stacked graphic, used on Facebook) (observatory / engineering)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0191",
+      "question": "Compare photos 52649053825 and 53585833653 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52649053825",
+          "53585833653"
+        ],
+        "answer": "Webb Spies Chariklo Ring System With High-Precision Technique (observatory / engineering) vs Cheers! NASA's Webb Finds Ethanol, Other Icy Ingredients for Worlds (observatory / engineering)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0192",
+      "question": "Compare photos 52115468291 and 52692145572 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52115468291",
+          "52692145572"
+        ],
+        "answer": "A Visit to the Space Telescope Science Institute (observatory / engineering) vs NASA\u2019s Webb Reveals Intricate Networks of Gas and Dust in Nearby Galaxies (galaxy)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0193",
+      "question": "Compare photos 53686360156 and 53285658284 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53686360156",
+          "53285658284"
+        ],
+        "answer": "Webb Captures Top of Iconic Horsehead Nebula in Unprecedented Detail (NIRCam) (nebula) vs James Webb Space Telescope Pumpkin Carving - by Jim Flis (observatory / engineering)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0194",
+      "question": "Compare photos 51885754693 and 52338846299 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "51885754693",
+          "52338846299"
+        ],
+        "answer": "James Webb Space Telescope Second Primary Mirror Deployment (observatory / engineering) vs A Cosmic Tarantula, Caught by NASA\u2019s Webb (nebula)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0195",
+      "question": "Compare photos 54088897300 and 54656143027 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "54088897300",
+          "54656143027"
+        ],
+        "answer": "Webb finds candidates for first young brown dwarfs outside the Milky Way (star) vs NASA\u2019s Webb Finds Possible \u2018Direct Collapse\u2019 Black Hole (galaxy)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0196",
+      "question": "Compare photos 51903750754 and 54688092157 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "51903750754",
+          "54688092157"
+        ],
+        "answer": "Webb Mirror Alignment Continues Successfully (Post-Image Stacking image) (observatory / engineering) vs NASA\u2019s Webb Traces Details of Complex Planetary Nebula (exoplanet)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0197",
+      "question": "Compare photos 53215962609 and 52324839010 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "53215962609",
+          "52324839010"
+        ],
+        "answer": "December 30/31, 2021, Webb On Its Way to L2 - by Dominque Dierick (observatory / engineering) vs The Phantom Galaxy Across the Spectrum (observatory / engineering)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0198",
+      "question": "Compare photos 52533787586 and 53012914424 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "52533787586",
+          "53012914424"
+        ],
+        "answer": "Galactic Get-Together (observatory / engineering) vs Saturn\u2019s Rings Shine in Webb\u2019s Observations of Ringed Planet (Labeled) (exoplanet)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0199",
+      "question": "Compare photos 55065769103 and 52210532302 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "55065769103",
+          "52210532302"
+        ],
+        "answer": "NASA Telescopes Spot Surprisingly Mature Cluster in Early Universe (galaxy) vs NASA\u2019s Webb Reveals Steamy Atmosphere of Distant Planet in Detail (observatory / engineering)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    },
+    {
+      "id": "prod-0200",
+      "question": "Compare photos 51944984610 and 54451311621 \u2014 what does each show, and do they have the same label?",
+      "category": "comparative",
+      "expected": {
+        "answerable": true,
+        "photo_ids": [
+          "51944984610",
+          "54451311621"
+        ],
+        "answer": "#JWSTArt - by Amber Owen and The Montessori Schoolhouse students (star) vs With NASA's Webb, Dying Star's Energetic Display Comes Into Full Focus (exoplanet)"
+      },
+      "metadata": {
+        "category": "comparative",
+        "shape": "comparative"
+      }
+    }
+  ]
+}
