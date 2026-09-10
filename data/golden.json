@@ -1,0 +1,868 @@
+{
+  "meta": {
+    "generated_from": "data/corpus.json",
+    "corpus_photo_count": 979,
+    "case_count": 44,
+    "cases_by_type": {
+      "count": 7,
+      "lookup": 7,
+      "search_and_verify": 14,
+      "disambiguate": 16
+    },
+    "note": "Regenerate with `npx tsx evals/build_golden.ts`. Every expected value is derived from the corpus, and every search case was verified solvable by the retriever at build time."
+  },
+  "cases": [
+    {
+      "input": {
+        "question": "How many photos in the corpus are labelled \"exoplanet\"?"
+      },
+      "expected": {
+        "answer": "92",
+        "photo_ids": [],
+        "tools": [
+          "count_by_label"
+        ]
+      },
+      "metadata": {
+        "case_type": "count",
+        "label": "exoplanet",
+        "optimal_tool_calls": 1
+      }
+    },
+    {
+      "input": {
+        "question": "How many photos in the corpus are labelled \"galaxy\"?"
+      },
+      "expected": {
+        "answer": "143",
+        "photo_ids": [],
+        "tools": [
+          "count_by_label"
+        ]
+      },
+      "metadata": {
+        "case_type": "count",
+        "label": "galaxy",
+        "optimal_tool_calls": 1
+      }
+    },
+    {
+      "input": {
+        "question": "How many photos in the corpus are labelled \"galaxy cluster\"?"
+      },
+      "expected": {
+        "answer": "23",
+        "photo_ids": [],
+        "tools": [
+          "count_by_label"
+        ]
+      },
+      "metadata": {
+        "case_type": "count",
+        "label": "galaxy cluster",
+        "optimal_tool_calls": 1
+      }
+    },
+    {
+      "input": {
+        "question": "How many photos in the corpus are labelled \"nebula\"?"
+      },
+      "expected": {
+        "answer": "42",
+        "photo_ids": [],
+        "tools": [
+          "count_by_label"
+        ]
+      },
+      "metadata": {
+        "case_type": "count",
+        "label": "nebula",
+        "optimal_tool_calls": 1
+      }
+    },
+    {
+      "input": {
+        "question": "How many photos in the corpus are labelled \"observatory / engineering\"?"
+      },
+      "expected": {
+        "answer": "265",
+        "photo_ids": [],
+        "tools": [
+          "count_by_label"
+        ]
+      },
+      "metadata": {
+        "case_type": "count",
+        "label": "observatory / engineering",
+        "optimal_tool_calls": 1
+      }
+    },
+    {
+      "input": {
+        "question": "How many photos in the corpus are labelled \"solar system\"?"
+      },
+      "expected": {
+        "answer": "34",
+        "photo_ids": [],
+        "tools": [
+          "count_by_label"
+        ]
+      },
+      "metadata": {
+        "case_type": "count",
+        "label": "solar system",
+        "optimal_tool_calls": 1
+      }
+    },
+    {
+      "input": {
+        "question": "How many photos in the corpus are labelled \"star\"?"
+      },
+      "expected": {
+        "answer": "88",
+        "photo_ids": [],
+        "tools": [
+          "count_by_label"
+        ]
+      },
+      "metadata": {
+        "case_type": "count",
+        "label": "star",
+        "optimal_tool_calls": 1
+      }
+    },
+    {
+      "input": {
+        "question": "What is photo 52327217300 about, and what canonical label does it carry?"
+      },
+      "expected": {
+        "answer": "The photo is titled \"NASA’s Webb Takes Its First-Ever Direct Image of Distant World\". Its canonical label is \"exoplanet\".",
+        "photo_ids": [
+          "52327217300"
+        ],
+        "tools": [
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "lookup",
+        "label": "exoplanet",
+        "optimal_tool_calls": 1
+      }
+    },
+    {
+      "input": {
+        "question": "What is photo 52210580092 about, and what canonical label does it carry?"
+      },
+      "expected": {
+        "answer": "The photo is titled \"NASA’s Webb Sheds Light on Galaxy Evolution, Black Holes\". Its canonical label is \"galaxy\".",
+        "photo_ids": [
+          "52210580092"
+        ],
+        "tools": [
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "lookup",
+        "label": "galaxy",
+        "optimal_tool_calls": 1
+      }
+    },
+    {
+      "input": {
+        "question": "What is photo 52505360712 about, and what canonical label does it carry?"
+      },
+      "expected": {
+        "answer": "The photo is titled \"NASA's Webb Draws Back Curtain on Universe's Early Galaxies (Unlabeled)\". Its canonical label is \"galaxy cluster\".",
+        "photo_ids": [
+          "52505360712"
+        ],
+        "tools": [
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "lookup",
+        "label": "galaxy cluster",
+        "optimal_tool_calls": 1
+      }
+    },
+    {
+      "input": {
+        "question": "What is photo 52211582643 about, and what canonical label does it carry?"
+      },
+      "expected": {
+        "answer": "The photo is titled \"NASA’s Webb Captures Dying Star’s Final ‘Performance’ in Fine Detail\". Its canonical label is \"nebula\".",
+        "photo_ids": [
+          "52211582643"
+        ],
+        "tools": [
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "lookup",
+        "label": "nebula",
+        "optimal_tool_calls": 1
+      }
+    },
+    {
+      "input": {
+        "question": "What is photo 51844503041 about, and what canonical label does it carry?"
+      },
+      "expected": {
+        "answer": "The photo is titled \"Coloring Page - by Kennedy Stone\". Its canonical label is \"observatory / engineering\".",
+        "photo_ids": [
+          "51844503041"
+        ],
+        "tools": [
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "lookup",
+        "label": "observatory / engineering",
+        "optimal_tool_calls": 1
+      }
+    },
+    {
+      "input": {
+        "question": "What is photo 52217021194 about, and what canonical label does it carry?"
+      },
+      "expected": {
+        "answer": "The photo is titled \"Webb Images of Jupiter and More Now Available In Commissioning Data\". Its canonical label is \"solar system\".",
+        "photo_ids": [
+          "52217021194"
+        ],
+        "tools": [
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "lookup",
+        "label": "solar system",
+        "optimal_tool_calls": 1
+      }
+    },
+    {
+      "input": {
+        "question": "What is photo 51875929261 about, and what canonical label does it carry?"
+      },
+      "expected": {
+        "answer": "The photo is titled \"#JWSTArt - by Jihong Suk\". Its canonical label is \"star\".",
+        "photo_ids": [
+          "51875929261"
+        ],
+        "tools": [
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "lookup",
+        "label": "star",
+        "optimal_tool_calls": 1
+      }
+    },
+    {
+      "input": {
+        "question": "Find the photo titled \"NASA’s Webb Takes Its First-Ever Direct Image of Distant World\". Give me its photo ID and the date it was taken."
+      },
+      "expected": {
+        "answer": "Photo 52327217300, taken 2022-09-01.",
+        "photo_ids": [
+          "52327217300"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "search_and_verify",
+        "label": "exoplanet",
+        "optimal_tool_calls": 2
+      }
+    },
+    {
+      "input": {
+        "question": "Find the photo titled \"Exoplanet WASP-39 b (Transmission Spectra)\". Give me its photo ID and the date it was taken."
+      },
+      "expected": {
+        "answer": "Photo 52517481568, taken 2022-11-17.",
+        "photo_ids": [
+          "52517481568"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "search_and_verify",
+        "label": "exoplanet",
+        "optimal_tool_calls": 2
+      }
+    },
+    {
+      "input": {
+        "question": "Find the photo titled \"NASA’s Webb Sheds Light on Galaxy Evolution, Black Holes\". Give me its photo ID and the date it was taken."
+      },
+      "expected": {
+        "answer": "Photo 52210580092, taken 2022-07-12.",
+        "photo_ids": [
+          "52210580092"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "search_and_verify",
+        "label": "galaxy",
+        "optimal_tool_calls": 2
+      }
+    },
+    {
+      "input": {
+        "question": "Find the photo titled \"Cartwheel Galaxy (MIRI)\". Give me its photo ID and the date it was taken."
+      },
+      "expected": {
+        "answer": "Photo 52258025987, taken 2022-08-02.",
+        "photo_ids": [
+          "52258025987"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "search_and_verify",
+        "label": "galaxy",
+        "optimal_tool_calls": 2
+      }
+    },
+    {
+      "input": {
+        "question": "Find the photo titled \"NASA's Webb Draws Back Curtain on Universe's Early Galaxies (Unlabeled)\". Give me its photo ID and the date it was taken."
+      },
+      "expected": {
+        "answer": "Photo 52505360712, taken 2022-11-17.",
+        "photo_ids": [
+          "52505360712"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "search_and_verify",
+        "label": "galaxy cluster",
+        "optimal_tool_calls": 2
+      }
+    },
+    {
+      "input": {
+        "question": "Find the photo titled \"NASA's Webb Draws Back Curtain on Universe's Early Galaxies (Labeled)\". Give me its photo ID and the date it was taken."
+      },
+      "expected": {
+        "answer": "Photo 52506320130, taken 2022-11-17.",
+        "photo_ids": [
+          "52506320130"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "search_and_verify",
+        "label": "galaxy cluster",
+        "optimal_tool_calls": 2
+      }
+    },
+    {
+      "input": {
+        "question": "Find the photo titled \"NASA’s Webb Captures Dying Star’s Final ‘Performance’ in Fine Detail\". Give me its photo ID and the date it was taken."
+      },
+      "expected": {
+        "answer": "Photo 52211582643, taken 2022-07-12.",
+        "photo_ids": [
+          "52211582643"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "search_and_verify",
+        "label": "nebula",
+        "optimal_tool_calls": 2
+      }
+    },
+    {
+      "input": {
+        "question": "Find the photo titled \"NASA’s Webb Reveals Cosmic Cliffs, Glittering Landscape of Star Birth\". Give me its photo ID and the date it was taken."
+      },
+      "expected": {
+        "answer": "Photo 52211883534, taken 2022-07-12.",
+        "photo_ids": [
+          "52211883534"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "search_and_verify",
+        "label": "nebula",
+        "optimal_tool_calls": 2
+      }
+    },
+    {
+      "input": {
+        "question": "Find the photo titled \"Coloring Page - by Kennedy Stone\". Give me its photo ID and the date it was taken."
+      },
+      "expected": {
+        "answer": "Photo 51844503041, taken 2022-01-06.",
+        "photo_ids": [
+          "51844503041"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "search_and_verify",
+        "label": "observatory / engineering",
+        "optimal_tool_calls": 2
+      }
+    },
+    {
+      "input": {
+        "question": "Find the photo titled \"Coloring Page - by Tyler Stone\". Give me its photo ID and the date it was taken."
+      },
+      "expected": {
+        "answer": "Photo 51844615253, taken 2022-01-06.",
+        "photo_ids": [
+          "51844615253"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "search_and_verify",
+        "label": "observatory / engineering",
+        "optimal_tool_calls": 2
+      }
+    },
+    {
+      "input": {
+        "question": "Find the photo titled \"Webb Images of Jupiter and More Now Available In Commissioning Data\". Give me its photo ID and the date it was taken."
+      },
+      "expected": {
+        "answer": "Photo 52217021194, taken 2022-07-14.",
+        "photo_ids": [
+          "52217021194"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "search_and_verify",
+        "label": "solar system",
+        "optimal_tool_calls": 2
+      }
+    },
+    {
+      "input": {
+        "question": "Find the photo titled \"Webb Images of Jupiter and More Now Available In Commissioning Data\". Give me its photo ID and the date it was taken."
+      },
+      "expected": {
+        "answer": "Photo 52217021869, taken 2022-07-14.",
+        "photo_ids": [
+          "52217021869"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "search_and_verify",
+        "label": "solar system",
+        "optimal_tool_calls": 2
+      }
+    },
+    {
+      "input": {
+        "question": "Find the photo titled \"#JWSTArt - by Jihong Suk\". Give me its photo ID and the date it was taken."
+      },
+      "expected": {
+        "answer": "Photo 51875929261, taken 2022-01-06.",
+        "photo_ids": [
+          "51875929261"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "search_and_verify",
+        "label": "star",
+        "optimal_tool_calls": 2
+      }
+    },
+    {
+      "input": {
+        "question": "Find the photo titled \"James Webb Space Telescope Second Primary Mirror Deployment\". Give me its photo ID and the date it was taken."
+      },
+      "expected": {
+        "answer": "Photo 51884707637, taken 2022-01-08.",
+        "photo_ids": [
+          "51884707637"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "search_and_verify",
+        "label": "star",
+        "optimal_tool_calls": 2
+      }
+    },
+    {
+      "input": {
+        "question": "Several photos match \"#UnfoldTheUniverse art -\". Which one was taken in 2021? Give me its photo ID."
+      },
+      "expected": {
+        "answer": "Photo 51889448776, \"#UnfoldTheUniverse art - by Juee Naik\", taken 2021-12-18.",
+        "photo_ids": [
+          "51889448776"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "disambiguate",
+        "label": "unclassified",
+        "optimal_tool_calls": 3
+      }
+    },
+    {
+      "input": {
+        "question": "Several photos match \"Webb Celebrates First\". Which one was taken in 2023? Give me its photo ID."
+      },
+      "expected": {
+        "answer": "Photo 53040527259, \"Webb Celebrates First Year of Science With Close-up on Birth of Sun-like Stars\", taken 2023-07-12.",
+        "photo_ids": [
+          "53040527259"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "disambiguate",
+        "label": "star",
+        "optimal_tool_calls": 3
+      }
+    },
+    {
+      "input": {
+        "question": "Several photos match \"NASA’s Webb Finds\". Which one was taken in 2024? Give me its photo ID."
+      },
+      "expected": {
+        "answer": "Photo 53454127213, \"NASA’s Webb Finds Signs of Possible Aurorae on Isolated Brown Dwarf (NIRSpec Spectrum)\", taken 2024-01-09.",
+        "photo_ids": [
+          "53454127213"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "disambiguate",
+        "label": "observatory / engineering",
+        "optimal_tool_calls": 3
+      }
+    },
+    {
+      "input": {
+        "question": "Several photos match \"Webb Shows Many\". Which one was taken in 2024? Give me its photo ID."
+      },
+      "expected": {
+        "answer": "Photo 53469906851, \"Webb Shows Many Early Galaxies Looked Like Pool Noodles, Surfboards\", taken 2024-01-17.",
+        "photo_ids": [
+          "53469906851"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "disambiguate",
+        "label": "unclassified",
+        "optimal_tool_calls": 3
+      }
+    },
+    {
+      "input": {
+        "question": "Several photos match \"A duo of\". Which one was taken in 2024? Give me its photo ID."
+      },
+      "expected": {
+        "answer": "Photo 53612916394, \"A duo of starbursts in I Zwicky 18\", taken 2024-03-20.",
+        "photo_ids": [
+          "53612916394"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "disambiguate",
+        "label": "galaxy",
+        "optimal_tool_calls": 3
+      }
+    },
+    {
+      "input": {
+        "question": "Several photos match \"NASA’s James Webb\". Which one was taken in 2024? Give me its photo ID."
+      },
+      "expected": {
+        "answer": "Photo 53757824805, \"NASA’s James Webb Space Telescope Finds Most Distant Known Galaxy\", taken 2024-05-30.",
+        "photo_ids": [
+          "53757824805"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "disambiguate",
+        "label": "galaxy",
+        "optimal_tool_calls": 3
+      }
+    },
+    {
+      "input": {
+        "question": "Several photos match \"NGC 7469 for\". Which one was taken in 2024? Give me its photo ID."
+      },
+      "expected": {
+        "answer": "Photo 53876605450, \"NGC 7469 for Chandra's 25th Anniversary (Chandra/Webb/Hubble composite)\", taken 2024-07-23.",
+        "photo_ids": [
+          "53876605450"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "disambiguate",
+        "label": "observatory / engineering",
+        "optimal_tool_calls": 3
+      }
+    },
+    {
+      "input": {
+        "question": "Several photos match \"NASA’s Webb, Hubble\". Which one was taken in 2024? Give me its photo ID."
+      },
+      "expected": {
+        "answer": "Photo 54107357754, \"NASA’s Webb, Hubble Examine Galaxy Pair\", taken 2024-10-31.",
+        "photo_ids": [
+          "54107357754"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "disambiguate",
+        "label": "galaxy",
+        "optimal_tool_calls": 3
+      }
+    },
+    {
+      "input": {
+        "question": "Several photos match \"Webb investigates a\". Which one was taken in 2025? Give me its photo ID."
+      },
+      "expected": {
+        "answer": "Photo 54306594896, \"Webb investigates a dusty and dynamic disc\", taken 2025-02-04.",
+        "photo_ids": [
+          "54306594896"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "disambiguate",
+        "label": "observatory / engineering",
+        "optimal_tool_calls": 3
+      }
+    },
+    {
+      "input": {
+        "question": "Several photos match \"Webb spies a\". Which one was taken in 2025? Give me its photo ID."
+      },
+      "expected": {
+        "answer": "Photo 54307047750, \"Webb spies a multifaceted disc\", taken 2025-02-04.",
+        "photo_ids": [
+          "54307047750"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "disambiguate",
+        "label": "observatory / engineering",
+        "optimal_tool_calls": 3
+      }
+    },
+    {
+      "input": {
+        "question": "Several photos match \"NASA's Webb Peers\". Which one was taken in 2025? Give me its photo ID."
+      },
+      "expected": {
+        "answer": "Photo 54377613296, \"NASA's Webb Peers Deeper into Mysterious Flame Nebula\", taken 2025-03-10.",
+        "photo_ids": [
+          "54377613296"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "disambiguate",
+        "label": "nebula",
+        "optimal_tool_calls": 3
+      }
+    },
+    {
+      "input": {
+        "question": "Several photos match \"NASA’s Hubble and\". Which one was taken in 2025? Give me its photo ID."
+      },
+      "expected": {
+        "answer": "Photo 54639970389, \"NASA’s Hubble and Webb Telescopes Reveal Two Faces of a Star Cluster Duo\", taken 2025-04-17.",
+        "photo_ids": [
+          "54639970389"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "disambiguate",
+        "label": "star",
+        "optimal_tool_calls": 3
+      }
+    },
+    {
+      "input": {
+        "question": "Several photos match \"NGC 2207 and\". Which one was taken in 2025? Give me its photo ID."
+      },
+      "expected": {
+        "answer": "Photo 54957843876, \"NGC 2207 and IC 2163: A Pair of Galactic Cornucopia (Webb + Chandra)\", taken 2025-12-01.",
+        "photo_ids": [
+          "54957843876"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "disambiguate",
+        "label": "galaxy",
+        "optimal_tool_calls": 3
+      }
+    },
+    {
+      "input": {
+        "question": "Several photos match \"NASA’s Webb Peers\". Which one was taken in 2026? Give me its photo ID."
+      },
+      "expected": {
+        "answer": "Photo 55039370738, \"NASA’s Webb Peers Deep into Heart of Circinus Galaxy\", taken 2026-01-13.",
+        "photo_ids": [
+          "55039370738"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "disambiguate",
+        "label": "galaxy",
+        "optimal_tool_calls": 3
+      }
+    },
+    {
+      "input": {
+        "question": "Several photos match \"The stellar lifecycle\". Which one was taken in 2026? Give me its photo ID."
+      },
+      "expected": {
+        "answer": "Photo 55106628191, \"The stellar lifecycle in a nearby spiral\", taken 2026-02-20.",
+        "photo_ids": [
+          "55106628191"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "disambiguate",
+        "label": "unclassified",
+        "optimal_tool_calls": 3
+      }
+    },
+    {
+      "input": {
+        "question": "Several photos match \"NASA Reveals New\". Which one was taken in 2026? Give me its photo ID."
+      },
+      "expected": {
+        "answer": "Photo 55118095230, \"NASA Reveals New Details About Dark Matter’s Influence on Universe\", taken 2026-02-26.",
+        "photo_ids": [
+          "55118095230"
+        ],
+        "tools": [
+          "search_photos",
+          "get_photo"
+        ]
+      },
+      "metadata": {
+        "case_type": "disambiguate",
+        "label": "unclassified",
+        "optimal_tool_calls": 3
+      }
+    }
+  ]
+}

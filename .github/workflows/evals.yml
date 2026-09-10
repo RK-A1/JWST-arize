@@ -1,0 +1,73 @@
+# Two jobs, deliberately.
+#
+#   unit  — scorer tests and the build-time absence check. No API keys, no cost.
+#           A scorer that is wrong produces experiments that are wrong in a way
+#           that looks like a real result, so these gate first.
+#
+#   eval  — the golden suite against a real model. Costs money and needs
+#           secrets, so it runs only after unit passes, and on a subset for PRs.
+#
+# What this workflow deliberately does NOT gate is the curated-failures suite.
+# The agent scores 0% on it, reproducibly, and that is the honest state: it is
+# the acceptance test for a fix that has not been made. Wiring a permanently red
+# job into CI teaches everyone to ignore CI. thresholds.json records the target,
+# and `curate_failures.py --gate` turns it on the day the fix lands.
+
+name: evals
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  unit:
+    name: scorer tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv venv --python 3.12
+      - run: uv pip install -e . pytest
+
+      - name: Scorer unit tests
+        run: .venv/bin/python -m pytest tests/ -q
+
+      - name: Production set is consistent with the corpus
+        # Regenerating must be a no-op, and the builder exits non-zero if a
+        # subject it calls absent has since been added to the corpus. Both
+        # matter: a question graded as unanswerable that has quietly become
+        # answerable would score the agent wrong in the flattering direction.
+        run: |
+          .venv/bin/python scripts/build_production_set.py
+          git diff --exit-code data/production.json \
+            || (echo "::error::data/production.json is stale — regenerate and commit" && exit 1)
+
+  eval:
+    name: golden suite
+    needs: unit
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.head.repo.full_name == github.repository || github.event_name == 'push'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv venv --python 3.12
+      - run: uv pip install -e .
+
+      - name: Run the golden suite as an experiment and enforce the gate
+        # The suite runs against a versioned Phoenix dataset, and the regression
+        # limits are measured against the previous experiment on that dataset —
+        # read back from the platform, so CI, a laptop, and a colleague's run all
+        # compare against the same history.
+        run: |
+          .venv/bin/python scripts/run_golden.py \
+            --limit ${{ github.event_name == 'pull_request' && '12' || '44' }} \
+            --repetitions ${{ github.event_name == 'pull_request' && '1' || '2' }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          PHOENIX_COLLECTOR_ENDPOINT: ${{ secrets.PHOENIX_COLLECTOR_ENDPOINT }}
+          PHOENIX_API_KEY: ${{ secrets.PHOENIX_API_KEY }}
+          AGENT_MODEL: claude-haiku-4-5
+          JUDGE_MODEL: claude-haiku-4-5

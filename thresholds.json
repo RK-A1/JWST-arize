@@ -1,0 +1,46 @@
+{
+  "$comment": [
+    "The quality contract for the agent, as a reviewable file.",
+    "",
+    "'floor' is an absolute minimum every run must clear.",
+    "'maxRegression' is how far a scorer may fall against the previous",
+    "experiment on the same dataset, as an absolute drop in the 0-1 score.",
+    "",
+    "── gates: the golden set ─────────────────────────────────────────────",
+    "",
+    "Carried over from the Braintrust project unchanged, and they pass. That",
+    "is the premise of this repo rather than an oversight: a suite can be well",
+    "designed, correctly implemented, honestly gated, and still miss the",
+    "failure that matters, because it is graded against a dataset generated",
+    "from the same corpus the agent searches.",
+    "",
+    "── failureGates: the curated production failures ─────────────────────",
+    "",
+    "unsupported_citation cannot be gated on the golden set. Every case there",
+    "is answerable, so the scorer skips every row and the gate would be",
+    "vacuous. It becomes measurable only against the dataset that",
+    "scripts/curate_failures.py builds from production traces.",
+    "",
+    "These limits are TARGETS, not the current state. The agent scores 0.0%",
+    "on unsupported_citation against that dataset — all nineteen rows fail,",
+    "reproducibly, which is what makes them a fixture worth keeping. The gate",
+    "is therefore opt-in (`--gate`) and is not wired into CI yet.",
+    "",
+    "That is deliberate. This suite is the acceptance test for a fix that has",
+    "not been made: the agent needs a way to discover that a label does not",
+    "exist, which is a tool change rather than a prompt change. When that",
+    "lands, this gate goes green and moves into the CI job above it."
+  ],
+  "gates": {
+    "answer_quality": { "maxRegression": 0.05 },
+    "citation_grounding": { "floor": 0.9, "maxRegression": 0.02 },
+    "required_citations": { "floor": 0.8, "maxRegression": 0.05 },
+    "tool_selection": { "floor": 0.8, "maxRegression": 0.05 },
+    "count_accuracy": { "floor": 0.9, "maxRegression": 0.05 },
+    "trajectory_efficiency": { "maxRegression": 0.15 }
+  },
+  "failureGates": {
+    "unsupported_citation": { "floor": 0.8 },
+    "appropriate_refusal": { "floor": 0.6 }
+  }
+}

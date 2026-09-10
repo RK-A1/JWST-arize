@@ -1,0 +1,17 @@
+[project]
+name = "jwst-arize"
+version = "1.0.0"
+description = "A JWST research agent whose eval suite is green and whose production traffic is not."
+requires-python = ">=3.12"
+dependencies = [
+    "arize-phoenix>=20.9",
+    "arize-phoenix-evals>=3.6",
+    "langgraph>=1.2",
+    "langchain-openai>=1.6",
+    "openinference-instrumentation-langchain>=0.1.75",
+    "opentelemetry-exporter-otlp>=1.30",
+    "python-dotenv>=1.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
